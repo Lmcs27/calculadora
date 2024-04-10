@@ -1,3 +1,4 @@
+function aplicacion(){
 // Muestra un mensaje de bienvenida 
 alert("Hola,bienvenidos y bienvenidas a la calculadora");
 
@@ -50,3 +51,6 @@ alert(nombre);
 
 // Muestra los números ingresados por el usuario y el resultado de la operación 
 document.write("Los numeros que ingresaste fueron " + numero1 + " y " + numero2 + " y el resultado de la operación" + resultado);
+}
+
+setTimeout(aplicacion,1000);
