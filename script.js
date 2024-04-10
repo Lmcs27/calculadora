@@ -33,7 +33,7 @@ if (operacion == 1) {
     resultado = numero1 - numero2;
     nombre = " la resta es " + resultado;
 } else if (operacion == 3) {
-    resultado = numero1 + numero2;
+    resultado = numero1 * numero2;
     nombre = " la multiplicación es " + resultado;
 } else if (operacion == 4) {
     if (numero2 !== 0) {
